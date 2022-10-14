@@ -16,34 +16,34 @@ namespace Calculator.Controllers
 
 
         [HttpGet]
-        public double Addition(double num1,double num2)
+        public double Addition(double num1,double num2) //api for adding 2 numbers
         {
             return CalculatorFunc.Calculator.Add(num1, num2);
         }
 
         [HttpGet]
-        public double Subtraction(double num1, double num2)
+        public double Subtraction(double num1, double num2) // api for subtraction of 2 numbers
         {
             return CalculatorFunc.Calculator.Subtract(num1, num2);
         }
 
 
         [HttpGet]
-        public double Multiplication(double num1, double num2)
+        public double Multiplication(double num1, double num2) // api for multiplication of 2 numbers
         {
             return CalculatorFunc.Calculator.Multiply(num1, num2);
         }
 
         [HttpGet]
-        public double Division(double num1, double num2)
+        public double Division(double num1, double num2) // api for division of 2 numbers
         {
             try
             {
-                result=CalculatorFunc.Calculator.Division(num1, num2);
+                result=CalculatorFunc.Calculator.Division(num1, num2); 
             }
             catch(DivideByZeroException)
             {
-                Response.StatusCode = 400;
+                Response.StatusCode = 400; //if number 2 is zero code will be set to 400
             }
             return result;
         }
