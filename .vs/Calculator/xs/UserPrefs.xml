@@ -1,0 +1,6 @@
+﻿<Properties StartupConfiguration="{4F547F98-4502-45A9-B2BD-20137C2F649F}|Default">
+  <MonoDevelop.Ide.ItemProperties.Calculator PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.ItemProperties.CalculatorFunc FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.CalculatorTests FirstBuild="True" />
+</Properties>
