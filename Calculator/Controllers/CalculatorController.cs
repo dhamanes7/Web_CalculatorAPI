@@ -33,6 +33,20 @@ namespace Calculator.Controllers
         {
             return CalculatorFunc.Calculator.Multiply(num1, num2);
         }
+
+        [HttpGet]
+        public double Division(double num1, double num2)
+        {
+            try
+            {
+                result=CalculatorFunc.Calculator.Division(num1, num2);
+            }
+            catch(DivideByZeroException)
+            {
+                Response.StatusCode = 400;
+            }
+            return result;
+        }
     }
 
 }
