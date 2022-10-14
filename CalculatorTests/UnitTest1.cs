@@ -33,4 +33,20 @@ public class UnitTest1
         var result = Calculator.Multiply(num1, num2);
         Assert.AreEqual(expected, result);
     }
+
+    [TestMethod]
+    [DataRow(8, 4, 2)]
+    [DataRow(7.2, 5, 1.44)]
+    [DataRow(-9, 3, -3)]
+    public void DivisionTest(double num1, double num2, double expected)
+    {
+        var result = Calculator.Division(num1, num2);
+        Assert.AreEqual(expected, result);
+    }
+
+    [TestMethod]
+    public void DivisionByZeroTest()
+    {
+        Assert.ThrowsException<DivideByZeroException>(() => Calculator.Division(2, 0));
+    }
 }
