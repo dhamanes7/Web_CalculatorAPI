@@ -1,6 +1,34 @@
 ﻿<Properties StartupConfiguration="{4F547F98-4502-45A9-B2BD-20137C2F649F}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.Calculator PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.ItemProperties.CalculatorFunc FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CalculatorTests/UnitTest1.cs">
+    <Files>
+      <File FileName="CalculatorFunc/Class1.cs" Line="24" Column="32" />
+      <File FileName="CalculatorTests/UnitTest1.cs" Line="18" Column="23" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Calculator" expanded="True">
+            <Node name="Calculator" expanded="True" />
+            <Node name="CalculatorFunc" expanded="True" />
+            <Node name="CalculatorTests" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Calculator" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.CalculatorTests FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
