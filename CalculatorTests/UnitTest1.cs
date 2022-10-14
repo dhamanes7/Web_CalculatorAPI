@@ -23,4 +23,14 @@ public class UnitTest1
         var result = Calculator.Subtract(num1, num2);
         Assert.AreEqual(expected, result);
     }
+
+    [TestMethod]
+    [DataRow(6, 4, 24)]
+    [DataRow(7.2, 5.4, 38.88)]
+    [DataRow(9, -3, -27)]
+    public void MultiplicationTest(double num1, double num2, double expected)
+    {
+        var result = Calculator.Multiply(num1, num2);
+        Assert.AreEqual(expected, result);
+    }
 }
