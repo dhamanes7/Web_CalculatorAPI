@@ -26,6 +26,13 @@ namespace Calculator.Controllers
         {
             return CalculatorFunc.Calculator.Subtract(num1, num2);
         }
+
+
+        [HttpGet]
+        public double Multiplication(double num1, double num2)
+        {
+            return CalculatorFunc.Calculator.Multiply(num1, num2);
+        }
     }
 
 }
