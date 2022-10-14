@@ -20,6 +20,12 @@ namespace Calculator.Controllers
         {
             return CalculatorFunc.Calculator.Add(num1, num2);
         }
+
+        [HttpGet]
+        public double Subtraction(double num1, double num2)
+        {
+            return CalculatorFunc.Calculator.Subtract(num1, num2);
+        }
     }
 
 }
